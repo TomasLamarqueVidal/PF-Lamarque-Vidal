@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: rgba(115, 141, 195, 0.873);
+}
+
+.HBK{
+    width: 100%;
+}
+
+.WWE{
+   width: 20%;
+}
+
+.TNA{
+    width: 40%;
+}
+
+.NJPW{
+    width: 40%;
+}
+
+.ARG{
+    width: 30%;
+}
+
+.AEW{
+    width: 30%;
+}
+
+
+.logo {
+    margin-top: 0;
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    
+    
+   
+}
+
+
+
+main {
+    font-size: 4vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+main  h2 {
+    font-size: 7vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    
+    
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 4px;
+    color: rgb(255, 255, 255);
+
+}
+
+.navbar li a:hover{
+    color: rgb(68, 22, 110);
+}
+
+.content{
+    background-color: rgba(115, 141, 195, 0.873);
+}
+
+.button{
+    color: rgb(255, 255, 255);
+}
+
+.button:hover {
+    color: rgb(68, 8, 128);
+
+}
+
+.footer {
+    background-color:rgba(115, 141, 195, 0.873) ;
+}
+   
+
+
+
+.grid-container  {
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    gap: 1em;
+
+
+}
+
+.notitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.notitem img{
+    width: 600px;
+    height: 400px;
+    object-fit: fill;
+
+   
+}
+
+
+/**Tablet**/
+@media (max-width:768px) { 
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        margin: auto;
+    }
+
+    .HBK{
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+/**Cel**/
+@media (max-width:576px) {
+
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        margin:auto
+
+    }
+
+    .HBK{
+        margin: auto;
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .notitem img {
+
+        width: 400px;
+        height: 250px;
+        
+    }
+
+   
+}
