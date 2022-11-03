@@ -1,0 +1,66 @@
+/**Grid**/
+.grid-container  {
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    gap: 1em;
+
+
+}
+
+.notitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.notitem img{
+    width: 600px;
+    height: 400px;
+    object-fit: fill;
+
+   
+}
+
+/**Tablet**/
+@media (max-width:768px) { 
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        margin: auto;
+    }
+
+    .HBK{
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+/**Cel**/
+@media (max-width:576px) {
+
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        margin:auto
+
+    }
+
+    .HBK{
+        margin: auto;
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .notitem img {
+
+        width: 400px;
+        height: 250px;
+        
+    }
+
+   
+}

@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/**Header**/
 header {
   background-color: rgba(115, 141, 195, 0.873);
 }
@@ -39,18 +40,7 @@ header {
   color: rgb(255, 255, 255);
 }
 
-main {
-  font-size: 4vh;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(255, 255, 255);
-}
-
-main h2 {
-  font-size: 7vh;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-align: center;
-}
-
+/**Main**/
 nav {
   display: flex;
   align-items: center;
@@ -73,6 +63,18 @@ nav {
   color: rgb(68, 22, 110);
 }
 
+main {
+  font-size: 4vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+main h2 {
+  font-size: 7vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
 .content {
   background-color: rgba(115, 141, 195, 0.873);
 }
@@ -85,10 +87,12 @@ nav {
   color: rgb(68, 8, 128);
 }
 
+/**Footer**/
 .footer {
   background-color: rgba(115, 141, 195, 0.873);
 }
 
+/**Grid**/
 .grid-container {
   grid-template-columns: repeat(2, 1fr);
   display: grid;
