@@ -3,8 +3,6 @@
     grid-template-columns: repeat(2,1fr);
     display: grid;
     gap: 1em;
-
-
 }
 
 .notitem {
@@ -14,13 +12,14 @@
     
 }
 
-.notitem img{
+.notitem img {
     width: 600px;
     height: 400px;
     object-fit: fill;
+  }
 
-   
-}
+
+
 
 /**Tablet**/
 @media (max-width:768px) { 

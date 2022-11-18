@@ -1,8 +1,18 @@
 .button{
-    color: rgb(255, 255, 255);
+    width: 130px;
+    height: 50px;
+    border: none;
+    position: center;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    font-size: 2rem;
+    outline: none;
+    text-decoration: none;
 }
 
 .button:hover {
-    color: rgb(68, 8, 128);
-
+    cursor: pointer;
+    color: cornflowerblue;
 }
+

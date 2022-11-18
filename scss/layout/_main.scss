@@ -14,25 +14,36 @@ nav {
 .navbar li a {
   text-decoration: none;
   padding: 4px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .navbar li a:hover {
-  color: rgb(68, 22, 110);
+  color: rgba(31, 0, 167, 0.942);
 }
 
 main {
   font-size: 4vh;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(255, 255, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+main h1{
+  font-size: 7vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 main h2 {
   font-size: 7vh;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
+  padding-bottom: 90px;
 }
 
 .content {
-  background-color: rgba(115, 141, 195, 0.873);
+  background-color: rgba(179, 216, 255, 0.974);
+}
+
+.notitem:hover{
+  transform: scale(0.9);
+  z-index: 2;
 }
